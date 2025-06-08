@@ -2,25 +2,25 @@
 
 The CertiBadge Issuer Dashboard is a professional-grade DApp for issuing soulbound NFT certificates as proof of course completion or credential verification. Built with React, Ethers.js, and web3.storage, it features image + metadata uploads to IPFS, ENS name resolution, real-time previews, and CSV logging for audit tracking.
 
-## ✨ Features
+## Features
 
-- 🧾 Upload badge image and metadata to IPFS via web3.storage
-- 🖼️ Preview badge details before minting
-- 🧠 ENS name resolution for recipient validation
-- ⛓️ Ethers.js integration to issue NFTs on-chain
-- 📄 Downloadable CSV log of issued badges
-- ⚙️ Tailwind + Shadcn UI with professional styling
+-  Upload badge image and metadata to IPFS via web3.storage
+-  Preview badge details before minting
+-  ENS name resolution for recipient validation
+-  Ethers.js integration to issue NFTs on-chain
+-  Downloadable CSV log of issued badges
+-  Tailwind + Shadcn UI with professional styling
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### 📦 Install Dependencies
+### Install Dependencies
 ```bash
 npm install
 ```
 
-### 🔐 Required Environment Variables
+### Required Environment Variables
 
 Create a `.env.local` file in the root with:
 
@@ -29,12 +29,12 @@ NEXT_PUBLIC_WEB3_STORAGE_TOKEN=your_web3_storage_token
 NEXT_PUBLIC_CONTRACT_ADDRESS=your_contract_address
 ```
 
-### 🧪 Run Locally
+### Run Locally
 ```bash
 npm run dev
 ```
 
-### 🧾 Compile and Deploy Smart Contract
+### Compile and Deploy Smart Contract
 Use Hardhat:
 ```bash
 npx hardhat compile
@@ -43,7 +43,7 @@ npx hardhat run scripts/deploy.js --network sepolia
 
 ---
 
-## 🔧 Smart Contract Method
+## Smart Contract Method
 
 Ensure your contract implements:
 ```solidity
@@ -52,7 +52,7 @@ function issueBadge(address recipient, string memory courseId, string memory iss
 
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 
 - React + Next.js
 - TailwindCSS + Shadcn UI
@@ -62,12 +62,12 @@ function issueBadge(address recipient, string memory courseId, string memory iss
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Pull requests welcome! Please fork the repo and submit a well-documented PR.
 
 ---
 
-## 📄 License
+## License
 
 MIT
